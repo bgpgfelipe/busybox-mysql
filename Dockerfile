@@ -1,6 +1,6 @@
 FROM busybox:ubuntu-14.04
 WORKDIR /
-RUN wget http://ftp.ntu.edu.tw/MySQL/Downloads/MySQL-5.7/mysql-5.7.16-linux-glibc2.5-x86_64.tar.gz
+RUN wget http://ftp.ntu.edu.tw/MySQL/Downloads/MySQL-5.7/mysql-5.7.17-linux-glibc2.5-x86_64.tar.gz
 RUN tar zxvf mysql-5.7.16-linux-glibc2.5-x86_64.tar.gz
 RUN mv mysql-5.7.16-linux-glibc2.5-x86_64 mysql
 RUN mkdir /mysql/sql_data
